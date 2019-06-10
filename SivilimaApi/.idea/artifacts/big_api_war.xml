@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="big-api:war">
+    <output-path>$PROJECT_DIR$/modules/big-api/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>big-api</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="big-api.war">
+      <element id="artifact" artifact-name="big-api:war exploded" />
+    </root>
+  </artifact>
+</component>

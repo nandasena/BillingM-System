@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="sivilima-api:war">
+    <output-path>$PROJECT_DIR$/modules/sivilima-api/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>sivilima-api</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="sivilima-api.war">
+      <element id="artifact" artifact-name="sivilima-api:war exploded" />
+    </root>
+  </artifact>
+</component>
