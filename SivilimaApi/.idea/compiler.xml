@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sivilima-dao" />
+        <module name="sivilima-service" />
+        <module name="sivilima-domain" />
+        <module name="sivilima-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="modules" target="1.8" />
+      <module name="sivilima" target="1.8" />
+      <module name="sivilima-api" target="1.8" />
+      <module name="sivilima-dao" target="1.8" />
+      <module name="sivilima-domain" target="1.8" />
+      <module name="sivilima-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

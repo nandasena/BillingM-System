@@ -1,0 +1,7 @@
+com/create_vision/sivilima/domain/user/RoleTO.class
+com/create_vision/sivilima/domain/user/GroupTO.class
+com/create_vision/sivilima/domain/model/UserModel.class
+com/create_vision/sivilima/domain/user/UserTO.class
+com/create_vision/sivilima/domain/model/LoginModel.class
+com/create_vision/sivilima/domain/base/BaseObject.class
+com/create_vision/sivilima/domain/model/ErrorModel.class

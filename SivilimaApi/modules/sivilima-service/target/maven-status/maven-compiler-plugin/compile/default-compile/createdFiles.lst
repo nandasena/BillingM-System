@@ -1,0 +1,5 @@
+com/create_vision/sivilima/service/auth/SecurityService.class
+com/create_vision/sivilima/service/user/UserService.class
+com/create_vision/sivilima/service/auth/ISecurityService.class
+com/create_vision/sivilima/service/user/IUserService.class
+com/create_vision/sivilima/service/auth/UserDetailsServiceImpl.class
