@@ -1,0 +1,9 @@
+
+SivilimaApi/modules/sivilima-api/target/classes/com/create_vision/sivilima/api/inventory/InventoryManagerApi.class
+SivilimaApi/modules/sivilima-api/target/maven-archiver/pom.properties
+SivilimaApi/modules/sivilima-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+*.lst
+*.jar
+SivilimaApi/modules/sivilima-domain/src/main/java/com/create_vision/sivilima/domain/inventory/ItemTO.java
+SivilimaApi/modules/sivilima-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+*.war
