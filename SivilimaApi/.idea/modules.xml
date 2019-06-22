@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/dao/dao.iml" filepath="$PROJECT_DIR$/dao/dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/modules/modules.iml" filepath="$PROJECT_DIR$/modules/modules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
       <module fileurl="file://$PROJECT_DIR$/sivilima.iml" filepath="$PROJECT_DIR$/sivilima.iml" />
       <module fileurl="file://$PROJECT_DIR$/modules/sivilima-api/sivilima-api.iml" filepath="$PROJECT_DIR$/modules/sivilima-api/sivilima-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/modules/sivilima-dao/sivilima-dao.iml" filepath="$PROJECT_DIR$/modules/sivilima-dao/sivilima-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/modules/sivilima-domain/sivilima-domain.iml" filepath="$PROJECT_DIR$/modules/sivilima-domain/sivilima-domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/modules/sivilima-service/sivilima-service.iml" filepath="$PROJECT_DIR$/modules/sivilima-service/sivilima-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
     </modules>
   </component>
 </project>
