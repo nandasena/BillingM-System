@@ -1,6 +1,7 @@
 import React from 'react'
 import { connect } from "react-redux";
 import { fetchInvoices } from "../../actions/index";
+import { Link } from "react-router-dom";
 
 class InvoiceList extends React.Component {
 
@@ -23,19 +24,27 @@ class InvoiceList extends React.Component {
         else {
             return this.props.invioces.map(invoice => {
                 return(
-                        <div className="ui relaxed divided list" key={invoice.id}>
-                            <div className="item">
-                                <i className="large github middle aligned icon"></i>
-                                <div className="content">
-                                    <a className="header">{invoice.invoiceNumber}</a>
-                                <div className="description">{invoice.balanceAmount}</div>
-                                </div>
-                            </div>
-                        </div>
+                   
+                        <tr class="" key={invoice.id}>
+                            <td class="">{invoice.invoiceNumber}</td>
+                            <td class="">September 14, 2013</td>
+                            <td class="">{invoice.customerName}</td>
+                            <td class="">{invoice.balanceAmount}</td>
+                        </tr>
                     )
             })
         }
 
+    }
+
+    renderCreate() {
+       
+            return (
+                <div style={{textAlign: 'right'}}>
+                    <Link to="/invoice/new" className="ui button primary">Create Invoice</Link>
+                </div>
+            )
+        
     }
 
     render() {
@@ -43,7 +52,22 @@ class InvoiceList extends React.Component {
         return(
             <div>
                 <h2>invioces</h2>
-                {this.renderInvoiceList()}
+               
+                <table class="ui single line table content">
+                    <thead class="">
+                        <tr class="">
+                        <th class="">invoiceNumber</th>
+                        <th class="">Order Date</th>
+                        <th class="">Customer Name</th>
+                        <th class="">Balance Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody class="">
+                    {this.renderInvoiceList()}
+
+                    </tbody>
+                </table>
+            {this.renderCreate()}
             </div>
         )
 

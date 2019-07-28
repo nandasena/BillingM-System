@@ -1,60 +1,152 @@
 {
-    "invoices": [
-        {
-            "id": 1,
-            "createdBy": null,
-            "createdAt": null,
-            "updatedBy": null,
-            "updatedAt": null,
-            "user": {
-              "id": 1,
-              "createdBy": 1,
-              "createdAt": 1561272006000,
-              "updatedBy": 1,
-              "updatedAt": 1561272006000,
-              "userName": "Pasan",
-              "name": "Pasan",
-              "password": "123",
-              "createdDate": "2019-06-23",
-              "lastUpdatedDate": "2019-06-23",
-              "roleId": 1
-            },
-            "totalAmount": 0,
-            "advanceAmount": 0,
-            "delivaryDate": null,
-            "invoiceDate": null,
-            "balanceAmount": 0,
-            "invoiceNumber": "5ef8e6e3-868c-4a0b-b87d-a347eee13130",
-            "invoiceItemDetails": [],
-            "elivaryDate": null
-        },
-        {
-            "id": 2,
-            "createdBy": null,
-            "createdAt": null,
-            "updatedBy": null,
-            "updatedAt": null,
-            "user": {
-              "id": 1,
-              "createdBy": 1,
-              "createdAt": 1561272006000,
-              "updatedBy": 1,
-              "updatedAt": 1561272006000,
-              "userName": "Pasan",
-              "name": "Pasan",
-              "password": "123",
-              "createdDate": "2019-06-23",
-              "lastUpdatedDate": "2019-06-23",
-              "roleId": 1
-            },
-            "totalAmount": 0,
-            "advanceAmount": 0,
-            "delivaryDate": null,
-            "invoiceDate": null,
-            "balanceAmount": 0,
-            "invoiceNumber": "5ef8e6e3-868c-4a0b-b87d-a347eee13130",
-            "invoiceItemDetails": [],
-            "elivaryDate": null
-        }
-    ]
+  "invoices": [
+    {
+      "id": 2,
+      "createdBy": null,
+      "createdAt": null,
+      "updatedBy": null,
+      "updatedAt": null,
+      "totalAmount": 0,
+      "advanceAmount": 0,
+      "delivaryDate": null,
+      "invoiceDate": null,
+      "balanceAmount": 0,
+      "invoicNumber": "5ef8e6e3-868c-4a0b-b87d-a347eee13130",
+      "DelivaryDate": null,
+      "customerName": "samitha",
+      "address": "",
+      "phoneNumber": "",
+      "comments": ""
+    },
+    {
+      "id": 1,
+      "createdBy": null,
+      "createdAt": null,
+      "updatedBy": null,
+      "updatedAt": null,
+      "totalAmount": 0,
+      "advanceAmount": 0,
+      "delivaryDate": null,
+      "invoiceDate": null,
+      "balanceAmount": 0,
+      "invoicNumber": "5ef8e6e3-868c-4a0b-b87d-a347eee13130",
+      "DelivaryDate": null,
+      "customerName": "samitha",
+      "address": "",
+      "phoneNumber": "",
+      "comments": ""
+    },
+    {
+      "invoicNumber": "12",
+      "address": "no 33 padiliyathuduwa kelaniya",
+      "phoneNumber": "710958099",
+      "comments": "qweqw",
+      "id": 3
+    },
+    {
+      "invoicNumber": "awd",
+      "address": "no 33 padiliyathuduwa kelaniya",
+      "phoneNumber": "710958099",
+      "customerName": "P H SAMITHA NANDASENA",
+      "comments": "wda",
+      "id": 4
+    },
+    {
+      "invoicNumber": "123",
+      "address": "no 33 padiliyathuduwa kelaniya",
+      "phoneNumber": "710958099",
+      "customerName": "P H SAMITHA NANDASENA",
+      "comments": "wqe",
+      "id": 5
+    },
+    {
+      "invoicNumber": "sef",
+      "address": "sef",
+      "phoneNumber": "sef",
+      "customerName": "sef",
+      "comments": "sef",
+      "id": 13
+    },
+    {
+      "invoicNumber": "42",
+      "address": "wd",
+      "phoneNumber": "wd",
+      "customerName": "f",
+      "comments": "ad",
+      "id": 14
+    },
+    {
+      "invoicNumber": "awd",
+      "address": "wd",
+      "phoneNumber": "awd",
+      "customerName": "awd",
+      "comments": "awd",
+      "id": 15
+    },
+    {
+      "invoicNumber": "ada",
+      "address": "wdaw",
+      "phoneNumber": "awd",
+      "customerName": "wad",
+      "comments": "awdw",
+      "id": 19
+    },
+    {
+      "invoicNumber": "q",
+      "address": "q",
+      "phoneNumber": "q",
+      "customerName": "q",
+      "comments": "q",
+      "id": 32
+    },
+    {
+      "invoicNumber": "yttt",
+      "address": "ert",
+      "phoneNumber": "uyy",
+      "customerName": "ert",
+      "comments": "wer",
+      "id": 33
+    },
+    {
+      "invoicNumber": "rrrrrr",
+      "address": "eeeeee",
+      "phoneNumber": "rrrrr",
+      "customerName": "rrrrrrr",
+      "comments": "rrrrrrr",
+      "id": 34
+    }
+  ],
+  "InvoiceItem": [
+    {
+      "invoiceNumber": "5ef8e6e3-868c-4a0b-b87d-a347eee13130",
+      "ItemNumber": 1,
+      "ItemName": "itemtest",
+      "Quantity": 10,
+      "Amount": "1000"
+    }
+  ],
+  "InvoiceItemtest": [
+    {
+      "invoiceNumber": "5ef8e6e3-868c-4a0b-b87d-a347eee13130",
+      "ItemNumber": 1,
+      "ItemName": "itemtest",
+      "Quantity": 10,
+      "Amount": "1000"
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "createdBy": 1,
+      "createdAt": 1561272006000,
+      "updatedBy": 1,
+      "updatedAt": 1561272006000,
+      "userName": "Pasan",
+      "name": "Pasan",
+      "password": "123",
+      "createdDate": "2019-06-23",
+      "lastUpdatedDate": "2019-06-23",
+      "roleId": 1
+    }
+  ]
 }
