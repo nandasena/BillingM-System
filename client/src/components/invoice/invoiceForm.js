@@ -20,14 +20,15 @@ class InvoiceForm extends React.Component {
     }
     renderItemDetailsForm(isInvoiceAdd) {
         
-        if (isInvoiceAdd===true) {
+        console.log(this.props);
+         if (isInvoiceAdd===true) {
             return(
-            <RenderItemDetails></RenderItemDetails>
+            <RenderItemDetails invoiceId={this.props.invoiceId}></RenderItemDetails>
             )
-        }
-        else {
+         }
+         else {
             return(
-                <div>No data</div>
+                 <div>No data</div>
             )
         }
     }
@@ -59,6 +60,7 @@ class InvoiceForm extends React.Component {
                     </form>
                 </div>
                 <div style={syleright}>
+                    
                     {this.renderItemDetailsForm(this.props.isAddInvoicItems.isInvoiceAdd)}
                 </div>
 

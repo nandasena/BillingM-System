@@ -18,7 +18,7 @@ export default (state = {...INTIAL_STATE} ,action) => {
        case FETCH_INVOICES:
            return { ...state, ..._.mapKeys(action.payload,'id')};
        case CREATE_INVOICE:
-           return{...state,isInvoiceAdd:{isInvoiceAdd:true},[action.payload.id]: action.payload};
+           return{...state,isInvoiceAdd:{isInvoiceAdd:true},invoiceId:{invoiceId:action.payload.id},[action.payload.id]: action.payload};
         default:
             return state;
    } 

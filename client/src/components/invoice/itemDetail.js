@@ -1,25 +1,34 @@
+import _ from 'lodash';
+
 import React from "react";
-import { Field, FieldArray, reduxForm } from "redux-form";
 import { connect } from "react-redux";
+import { createInvoiceItems } from '../../actions'
 import ItemDetailsForm from './invoiceItemForm';
 
 class RenderItemDetails extends React.Component {
 
+    onSubmit = (formValues) => {
+
+        console.log('ff');
+        var savedformValues =_.merge(formValues,{invoiceId:this.props.invoiceId})
+         console.log(savedformValues);
+        //this.props.createInvoiceItems(formValues);
+    }
 
 render() {
         return (
        <div>
            <h4>Invoice Items</h4>
-           <ItemDetailsForm></ItemDetailsForm>
+           <ItemDetailsForm onSubmit={this.onSubmit}></ItemDetailsForm>
        </div>
 
         );
 }
 
 }
-const mapStateToProps =(state) => {
+ const mapStateToProps =(state) => {
     return { 
-        invioces: Object.values(state.invioces),
-    };
+        invoiceItems: Object.values(state.invoiceItems),
+     };
 }
-export default connect(mapStateToProps,null)(RenderItemDetails);
+export default connect(mapStateToProps,{createInvoiceItems})(RenderItemDetails);

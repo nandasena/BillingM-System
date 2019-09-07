@@ -22,16 +22,25 @@ class InvoiceList extends React.Component {
             )
         }
         else {
+            
+            console.log('sdfsdf'+this.props.invioces);
             return this.props.invioces.map(invoice => {
-                return(
-                   
-                        <tr class="" key={invoice.id}>
-                            <td class="">{invoice.invoiceNumber}</td>
-                            <td class="">September 14, 2013</td>
-                            <td class="">{invoice.customerName}</td>
-                            <td class="">{invoice.balanceAmount}</td>
+
+                
+                if (this.props.invioces.length>1) {
+                    return(
+                        <tr className="" key={invoice.id}>
+                            <td className="">{invoice.invoiceNumber}</td>
+                            <td className="">{invoice.invoicDate}</td>
+                            <td className="">{invoice.customerName}</td>
+                            <td className="">{invoice.balanceAmount}</td>
                         </tr>
-                    )
+                    )   
+                }
+                else {
+                   return( <p>no data</p>)
+                }
+
             })
         }
 
@@ -53,16 +62,16 @@ class InvoiceList extends React.Component {
             <div>
                 <h2>invioces</h2>
                
-                <table class="ui single line table content">
-                    <thead class="">
-                        <tr class="">
-                        <th class="">invoiceNumber</th>
-                        <th class="">Order Date</th>
-                        <th class="">Customer Name</th>
-                        <th class="">Balance Amount</th>
+                <table className="ui single line table content">
+                    <thead className="">
+                        <tr className="">
+                        <th className="">invoiceNumber</th>
+                        <th className="">Order Date</th>
+                        <th className="">Customer Name</th>
+                        <th className="">Balance Amount</th>
                         </tr>
                     </thead>
-                    <tbody class="">
+                    <tbody className="">
                     {this.renderInvoiceList()}
 
                     </tbody>

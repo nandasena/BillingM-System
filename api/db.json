@@ -1,132 +1,92 @@
 {
   "invoices": [
     {
-      "id": 2,
-      "createdBy": null,
-      "createdAt": null,
-      "updatedBy": null,
-      "updatedAt": null,
-      "totalAmount": 0,
-      "advanceAmount": 0,
-      "delivaryDate": null,
-      "invoiceDate": null,
-      "balanceAmount": 0,
-      "invoicNumber": "5ef8e6e3-868c-4a0b-b87d-a347eee13130",
-      "DelivaryDate": null,
-      "customerName": "samitha",
-      "address": "",
-      "phoneNumber": "",
-      "comments": ""
-    },
-    {
-      "id": 1,
-      "createdBy": null,
-      "createdAt": null,
-      "updatedBy": null,
-      "updatedAt": null,
-      "totalAmount": 0,
-      "advanceAmount": 0,
-      "delivaryDate": null,
-      "invoiceDate": null,
-      "balanceAmount": 0,
-      "invoicNumber": "5ef8e6e3-868c-4a0b-b87d-a347eee13130",
-      "DelivaryDate": null,
-      "customerName": "samitha",
-      "address": "",
-      "phoneNumber": "",
-      "comments": ""
-    },
-    {
-      "invoicNumber": "12",
+      "invoicNumber": "123",
       "address": "no 33 padiliyathuduwa kelaniya",
       "phoneNumber": "710958099",
-      "comments": "qweqw",
-      "id": 3
+      "customerName": "P H SAMITHA NANDASENA",
+      "comments": "eqq",
+      "id": 1
+    },
+    {
+      "invoicNumber": "rrrrrr",
+      "address": "ert",
+      "phoneNumber": "ef",
+      "customerName": "ert",
+      "comments": "er",
+      "id": 2
     },
     {
       "invoicNumber": "awd",
       "address": "no 33 padiliyathuduwa kelaniya",
       "phoneNumber": "710958099",
       "customerName": "P H SAMITHA NANDASENA",
-      "comments": "wda",
-      "id": 4
+      "comments": "wd",
+      "id": 3
     },
     {
       "invoicNumber": "123",
       "address": "no 33 padiliyathuduwa kelaniya",
       "phoneNumber": "710958099",
       "customerName": "P H SAMITHA NANDASENA",
-      "comments": "wqe",
+      "comments": "wd",
+      "id": 4
+    },
+    {
+      "invoicNumber": "tg",
+      "address": "rg",
+      "phoneNumber": "ere",
+      "customerName": "wer",
+      "comments": "were",
       "id": 5
     },
     {
-      "invoicNumber": "sef",
-      "address": "sef",
-      "phoneNumber": "sef",
-      "customerName": "sef",
-      "comments": "sef",
-      "id": 13
+      "invoicNumber": "123",
+      "address": "no 33 padiliyathuduwa kelaniya",
+      "phoneNumber": "710958099",
+      "customerName": "P H SAMITHA NANDASENA",
+      "id": 6
     },
     {
-      "invoicNumber": "42",
-      "address": "wd",
-      "phoneNumber": "wd",
-      "customerName": "f",
-      "comments": "ad",
-      "id": 14
+      "invoicNumber": "wd",
+      "address": "no 33 padiliyathuduwa kelaniya",
+      "phoneNumber": "710958099",
+      "customerName": "P H SAMITHA NANDASENA",
+      "id": 7
     },
     {
-      "invoicNumber": "awd",
-      "address": "wd",
-      "phoneNumber": "awd",
-      "customerName": "awd",
-      "comments": "awd",
-      "id": 15
+      "invoicNumber": "wad",
+      "address": "no 33 padiliyathuduwa kelaniya",
+      "phoneNumber": "710958099",
+      "customerName": "P H SAMITHA NANDASENA",
+      "id": 8
     },
     {
-      "invoicNumber": "ada",
-      "address": "wdaw",
-      "phoneNumber": "awd",
-      "customerName": "wad",
-      "comments": "awdw",
-      "id": 19
+      "invoicNumber": "123",
+      "address": "no 33 padiliyathuduwa kelaniya",
+      "phoneNumber": "710958099",
+      "customerName": "P H SAMITHA NANDASENA",
+      "id": 9
     },
     {
-      "invoicNumber": "q",
-      "address": "q",
-      "phoneNumber": "q",
-      "customerName": "q",
-      "comments": "q",
-      "id": 32
+      "invoicNumber": "123",
+      "address": "no 33 padiliyathuduwa kelaniya",
+      "phoneNumber": "710958099",
+      "customerName": "P H SAMITHA NANDASENA",
+      "id": 10
     },
     {
-      "invoicNumber": "yttt",
-      "address": "ert",
-      "phoneNumber": "uyy",
-      "customerName": "ert",
-      "comments": "wer",
-      "id": 33
-    },
-    {
-      "invoicNumber": "rrrrrr",
-      "address": "eeeeee",
-      "phoneNumber": "rrrrr",
-      "customerName": "rrrrrrr",
-      "comments": "rrrrrrr",
-      "id": 34
+      "invoicNumber": "123",
+      "address": "no 33 padiliyathuduwa kelaniya",
+      "phoneNumber": "710958099",
+      "customerName": "P H SAMITHA NANDASENA",
+      "id": 11
     }
   ],
-  "InvoiceItem": [
-    {
-      "invoiceNumber": "5ef8e6e3-868c-4a0b-b87d-a347eee13130",
-      "ItemNumber": 1,
-      "ItemName": "itemtest",
-      "Quantity": 10,
-      "Amount": "1000"
-    }
-  ],
+  "InvoiceItem": [],
   "InvoiceItemtest": [
     {
+      "id": 2,
       "invoiceNumber": "5ef8e6e3-868c-4a0b-b87d-a347eee13130",
       "ItemNumber": 1,
       "ItemName": "itemtest",
