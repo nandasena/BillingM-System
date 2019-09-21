@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 class InvoiceList extends React.Component {
 
+    
     componentDidMount() {
         this.props.fetchInvoices();
         

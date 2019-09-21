@@ -2,6 +2,7 @@ import React from "react";
 import { Field, FieldArray, reduxForm } from "redux-form";
 import { connect } from "react-redux";
 
+
 class ItemDetailsForm extends React.Component {
 
     onSubmit = (formValues) => {
@@ -18,6 +19,7 @@ render() {
                     <Field className="field" name="Amount" component={this.renderInput} label="Amount"></Field>
                     <button className="ui button primary">Add</button>
                 </form>
+               
             </div>
 
         );
